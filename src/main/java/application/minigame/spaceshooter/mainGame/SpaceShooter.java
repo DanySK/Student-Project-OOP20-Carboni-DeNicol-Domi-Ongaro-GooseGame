@@ -60,8 +60,6 @@ public class SpaceShooter extends Application implements MinigameController {
         start(primaryStage);
     }
 
-    @edu.umd.cs.findbugs.annotations.SuppressFBWarnings({ "URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD",
-            "RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" })
     @Override
     public void start(final Stage primaryStage) {
         canvas = new Canvas(InfoGame.WIDTH, InfoGame.HEIGHT);
